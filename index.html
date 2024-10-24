@@ -17,20 +17,28 @@
 
     <main>
         <div class="container">
-            <form class="box-container">
+            <!-- <form class="box-container">
                 <h1>Caixa de sugestões</h1>
-                <input type="text" placeholder="Escreva sua sugestão" />
-                <button class="enviar-button">Enviar</button>
+                <input type="text" id="input-item" placeholder="Escreva sua sugestão" />
+                <button class="enviar-button" id="add-item">Enviar</button>
 
                 <label for="checkbox-1">
                     <input type="checkbox" class="input-checkbox" id="checkbox-1" />
                     <div class="input-styled-checkbox checked"></div>
-                </label>
-                
+                </label>                
+            </form> -->
+
+            <form>
+                <input class="input-item" id="input-item" type="text" placeholder="Digite a tarefa que deseja adicionar"></input>
+                <button class="button-item" id="button-item">Salvar tarefa</button>
             </form>
+
+            <ul id="item-list">
+
+            </ul>
         </div>
     </main>
-
+<script src="script.js"></script>
 </body>
 
 </html>

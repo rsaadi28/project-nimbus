@@ -23,21 +23,20 @@ body {
   padding: 40px;
   border: 2px solid var(--preto);
   margin: auto;
-  }
+}
 
-  .box-container{
-    font-family: var(--fonte-titulo);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    text-align: center;
-  }
+.box-container {
+  font-family: var(--fonte-titulo);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
 
-
-  .box-container h1 {
+.box-container h1 {
   font-size: 20px;
 }
 
@@ -91,4 +90,47 @@ body {
   width: 5px;
   height: 12px;
   transform: rotate(-140deg);
+}
+
+form .input-item{
+padding: 4px 7px;
+width: 500px;
+}
+
+form .input-item::placeholder{
+  font-family: var(--fonte-titulo);
+}
+
+form .button-item{
+  background-color: transparent;
+  padding: 4px 7px;
+  border:none;
+  cursor: pointer;
+}
+
+.container-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-name{
+  display: flex;
+  gap:12px;
+}
+
+.container-button{
+  display: flex;
+  gap:12px;
+}
+
+.action-button{
+  background-color: transparent;
+  padding: 4px 7px;
+  border:none;
+  cursor: pointer;
+}
+
+.container ul li{
+  list-style-type: none;
 }
